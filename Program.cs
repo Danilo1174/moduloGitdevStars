@@ -14,7 +14,7 @@ namespace modulo_Git
             #region Base
             Console.WriteLine("Digite 1 para iniciar o programa ou digite 0 para sair");
             int opcao = int.Parse(Console.ReadLine());
-            while(opcao !=0) 
+            while (opcao != 0)
             {
                 int a, b;
                 Console.WriteLine("informa o valor dos numeros a serem somados");
@@ -33,5 +33,12 @@ namespace modulo_Git
         {
             return a + b;
         }
+        static int Subtracao(int a, int b)
+        {
+        return a - b;
+
+        }
+            
+
     }
 }
